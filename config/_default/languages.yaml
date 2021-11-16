@@ -4,19 +4,67 @@
 
 # Default language
 en:
-  languageCode: en-us
+ languageCode: en-us
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+ contentDir: content/en
+ title: Lele Shu
+ params:
+   description: Shu's personal page
+ menu:
+  main:
+    - name: 首页
+      url: '#about'
+      weight: 1
+    - name: Post
+      url: 'post/'
+      weight: 20
 
+    - name: Research
+      url: '#projects'
+      weight: 30
+
+    - name: Gallery
+      url: 'gallery/'
+      weight: 40
+
+    - name: Talk
+      url: '#talks'
+      weight: 50
+
+    - name: Publications
+      url: '#publications'
+      weight: 60
+
+    - name: CV
+      url: 'cv/'
+      weight: 70
 # Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+zh:
+ languageCode: zh-Hans
+ contentDir: content/zh
+ title: 舒乐乐
+ params:
+   description: 舒乐乐个人网站
+ menu:
+  main:
+    - name: 首页
+      url: '#about'
+      weight: 1
+    - name: 博客
+      url: 'post/'
+      weight: 20
+    - name: 研究
+      url: '#projects'
+      weight: 30
+    - name: 图库
+      url: 'gallery/'
+      weight: 40
+    - name: 讲座
+      url: '#talks'
+      weight: 50
+    - name: 文章
+      url: '#publications'
+      weight: 60
+    - name: 简历
+      url: 'cv/'
+      weight: 70
